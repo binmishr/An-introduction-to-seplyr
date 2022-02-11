@@ -6,11 +6,6 @@ You need to view the file in "Read Mode" to see the contents properly after down
 A Brief Introduction
 ======================
 
-Dependencies
-================
-Win-Vector LLC
-12/1/2017
-
 This is an example of an erroneous calculation in `dplyr` `0.7.4` with databases, likely arising from mishandling of expression to expression dependencies (which [we have written about before]). Since this is not a security issue, can cause non-signaled incorrect results, and has an easy fix: we have decided to document it here and to [distribute an announcement].
 
 First we set up our example.
